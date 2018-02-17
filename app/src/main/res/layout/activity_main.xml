@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/logoW"
+        android:layout_height="@dimen/logoH"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/logoMTop"
+        android:background="@drawable/whitelogo"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/name"
+            android:textSize="@dimen/size1"
+            android:textColor="@color/name"
+            android:layout_marginBottom="@dimen/nameMB"
+            android:layout_marginStart="@dimen/nameMS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/address"
+            android:textSize="@dimen/size2"
+            android:textColor="@color/add"
+            android:layout_marginBottom="@dimen/addMB"
+            android:layout_marginStart="@dimen/addMS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/web"
+            android:textSize="@dimen/size3"
+            android:textColor="@color/web"
+            android:layout_marginBottom="@dimen/webMB"
+            android:layout_marginStart="@dimen/webMS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/phone"
+            android:textSize="@dimen/size4"
+            android:textColor="@color/phone"
+            android:layout_marginStart="@dimen/phoneMS"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:src="@drawable/sosamap" />
+
+</RelativeLayout>

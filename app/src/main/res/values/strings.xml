@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SOSA contact card app</string>
+    <string name="name">Slovak Organisation for Space Activities</string>
+    <string name="address">Zámocká 4 Bratislava Slovakia</string>
+    <string name="web">sosa.sk</string>
+    <string name="phone">0905 006 277</string>
+</resources>

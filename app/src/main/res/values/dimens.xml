@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logoMTop">54dp</dimen>
+    <dimen name="logoW">200dp</dimen>
+    <dimen name="logoH">200dp</dimen>
+    <dimen name="size1">20sp</dimen>
+    <dimen name="nameMB">10dp</dimen>
+    <dimen name="nameMS">15dp</dimen>
+    <dimen name="size2">20sp</dimen>
+    <dimen name="addMB">10dp</dimen>
+    <dimen name="addMS">15dp</dimen>
+    <dimen name="size3">20sp</dimen>
+    <dimen name="webMB">10dp</dimen>
+    <dimen name="webMS">15dp</dimen>
+    <dimen name="size4">20sp</dimen>
+    <dimen name="phoneMS">15dp</dimen>
+</resources>
